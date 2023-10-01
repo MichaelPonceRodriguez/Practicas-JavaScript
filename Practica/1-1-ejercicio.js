@@ -50,11 +50,11 @@ Otoño (21 de marzo a 20 de junio).
 Invierno (21 de junio a 20 de septiembre). 
 Primavera (21 de septiembre a 20 de diciembre).
 */ 
-numeroMes = 6;
-numeroDia = 20;
+numeroMes = 3;
+numeroDia = 21;
 
 if(numeroDia > 31 || numeroDia <=0){
-    console.log("Intente otro numeroDia");
+    console.log("Intente otro Dia");
 }else{
     switch(numeroMes){
         case 1:case 2:
