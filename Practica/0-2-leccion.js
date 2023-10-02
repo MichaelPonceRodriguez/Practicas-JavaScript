@@ -1,6 +1,7 @@
 /*
 Operadores aritmeticos
 Sentencia de control Switch
+
 */
 let numero = 21;
 let numero2 = 10;
