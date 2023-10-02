@@ -3,6 +3,7 @@ Tipos de variables (String, int, boolean)
 Concatenacion de cadenas
 Impresion de mensaje por consola
 Sentencia de control if
+
 */
 var nombre ="Michael";
 var apellido ="Ponce";
