@@ -1,4 +1,4 @@
-//Ejercicio de Calendario de Estaciones del año Argentina (IF ELSE)
+//Ejercicio de Calendario de Estaciones del año Argentina (if else)
 /*
 Verano (21 de diciembre a 20 de marzo). 
 Otoño (21 de marzo a 20 de junio). 
@@ -43,7 +43,7 @@ else{
 
 //--------------------------------------------------------------------------------------------------------------------------
 
-//Ejercicio de Calendario de Estaciones del año Argentina (SWITCH)
+//Ejercicio de Calendario de Estaciones del año Argentina (switch)
 /*
 Verano (21 de diciembre a 20 de marzo). 
 Otoño (21 de marzo a 20 de junio). 
