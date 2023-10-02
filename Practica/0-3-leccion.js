@@ -1,5 +1,4 @@
-//Objetos
-
+//Uso de Objetos
 //Manera recomendada de crear objetos
 let persona= {
     nombre: "Michael",
