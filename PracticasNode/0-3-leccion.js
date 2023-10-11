@@ -30,3 +30,26 @@ function hola(nombre, micallback) {
       console.log("Terminando");
     });
   });
+
+  function conversacion(nombre, veces, callback) {
+    if (veces >= 0) {
+      hablar(function() {
+        conversacion(nombre, --veces, callback);
+      });
+    } else {
+      adios(nombre, callback);
+    }
+  }
+  function hablar(callbackhablar) {
+    setTimeout(function() {
+      console.log("bla, bla, bla, bla");
+      callbackhablar();
+    }, 1000);
+  }
+  
+  console.log("iniciando");
+  hola("Michael", function(nombre) {
+    conversacion(nombre, 2, function() {
+      console.log("proceso terminado");
+    });
+  });
